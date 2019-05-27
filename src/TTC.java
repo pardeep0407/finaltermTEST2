@@ -6,8 +6,12 @@ public class TTC {
 	String[] from1 = new String[]{"Leslie"};
 
 	String[] to1 = new String[]{"Don Mill"};
-	from[0].contains(("Leslie") && to[0].contains("Don Mills"));{
+	if(from[0].contains("Leslie") && to[0].contains("Don Mills"));{
 		return 2.5;
+	}
+	else if (from[0].contains("Sheppard") && to[0].contains("Finch Station"));
+	{
+		return 3.0;
 	}
 	
 	
