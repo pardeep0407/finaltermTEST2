@@ -19,6 +19,10 @@ public class TTC {
 		return 3.0;
 	
 	}
+	else if (from[0].contains("Finch") && to[0].contains("Sheppard")) && from[1].contains("Leslie") && to[1].contains("Don Mills");
+	{
+		return 5.50;
+	}
 		
 		return 0.0;
 	}
