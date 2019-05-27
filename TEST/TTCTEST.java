@@ -48,6 +48,16 @@ public class TTCTEST {
 		String[] To1 = new String []{"Sheppard","Don Mills"};
 		double fare = T.calculateTotal(from1,To1);
 		assertEquals(5.50,fare,0.0);
+	}
+	@Test
+    public void test5() {
+		TTC T = new TTC();
+		//dAILY mAXIMUM
+		String[] from1 = new String []{"Finch","Leslie"};
+		String[] To1 = new String []{"Sheppard","Don Mills"};
+		double fare = T.calculateTotal(from1,To1);
+		assertEquals(5.50,fare,0.0);
 	}	
+
 
 }
