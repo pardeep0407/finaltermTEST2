@@ -40,5 +40,14 @@ public class TTCTEST {
 		double fare = T.calculateTotal(from1,To1);
 		assertEquals(3.0,fare,0.0);
 	}	
+	@Test
+    public void test4() {
+		TTC T = new TTC();
+		//MORE THAN 1 TRIP
+		String[] from1 = new String []{"Finch","Leslie"};
+		String[] To1 = new String []{"Sheppard","Don Mills"};
+		double fare = T.calculateTotal(from1,To1);
+		assertEquals(5.50,fare,0.0);
+	}	
 
 }
